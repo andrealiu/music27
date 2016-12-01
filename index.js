@@ -256,12 +256,5 @@ $(function() {
   .setTween(tween6)
   .addTo(scrollMagicController);  
 
-  // Add debug indicators fixed on right side
-   scene1.addIndicators();
-    scene2.addIndicators();
-  scene3.addIndicators();
-  scene4.addIndicators()
-  scene5.addIndicators()
-  scene6.addIndicators()
   
 });
