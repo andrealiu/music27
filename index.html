@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+      <title>Music 27 Assignment 2</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta content="yes" name="apple-mobile-web-app-capable">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+      <!-- Favicons -->
+      <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/wp-content/favicon.ico">
+
+      <!-- Styles -->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+      <!--[if lt IE 9]>
+          <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="index.js"></script><!-- scripts.js, main.js, etc. -->
+
+    <header>
+      <div class="container" >
+        <div class="col-md-8 col-md-offset-2">
+          <h1>
+           <!--  <i class="fa fa-heart"></i> -->
+            Blue Cathedral
+            <h3> Jennifer Higdon </h3>
+<!--             <i class="fa fa-magic"></i> -->
+          </h1>
+          <hr>
+          <h2>Andrea Liu - DIS 105</h2>
+          <div class="lead">
+            <p>
+            “Blue Cathedral”, by Jennifer Higdon, is a deeply emotional and evocative piece of program music that paints a story of transcendence through journey. Inspired to write the piece by the death of her younger brother, Higdon brings back Romantic ideals of musically rendering imageries and expressing personal struggles through song. The progressions between soft, chiming tunes and intensely orchestrated climaxes allows the listener to experience the ebb and flow of life's adventure, and help depict the experience of growth and expansion that cathedrals were meant to foster. </p> <br> <p>
+            Here, I section the song into notable components of the journey it depicts, both analyzing the aspects that shape each component individually and considering its contribution to the narrative of the overall piece.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="arrow-wrap" href="#content">
+        <span class="arrow"></span>
+        <!--<span class="hint">scroll</span>-->
+      </div>
+    </header>
+
+
+
+    <main><div class="container">
+      <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="marker" id="start-marker">  
+            ~ START ~
+          </div>
+        </div>
+        
+      </div>    
+
+
+       <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+
+          <div class="wrap"> 
+            <div id="scene-1"> 
+              <h2 class="chapter-title" id="title-1">Chapter 1: The Beginning</h2>
+              <div class="animation" id="animation-1">
+                <i class="fa fa-book"></i>
+              </div>
+              <div class="text" id="text-1">
+                <div class="music">
+                  <audio src="part1.mp3" controls> 
+                    <p>Source could not be loaded.</p>
+                  </audio>
+                </div>
+                <p>This opening section of the piece represents a beginning, and presents a tranquil, contemplative theme with the gradual introduction of chiming instruments and lower strings. This soft, but regal choice of orchestration immediately connects to the title of the song by emulating the sound of church bells, establishing the foundation of the journey in the image of a cathedral, from which exploration will begin. The rocking strings that slowly rise up and down the scale are reminiscent of those first steps forward. 
+                </p>
+                <br>
+                <p>
+                  Later in the section, woodwinds appear to play high-pitched and lingering melodies that ascend with light, trilled flourishes. These tunes are reminiscent of the calls of birds soaring through the sky, and represent both freedom and openness to possibility. The emphasis placed on the flute and clarinet solo duet introduces an element of intimacy and personal expression by alluding to the relationship between Higdon herself, a flutist, and her late brother, a clarinet player. The free-form storytelling and lack of a firm sense of meter contributes to immersive feel of this section, which, much like in Chopin’s Ballade #3, makes the piece seem to flow straight from the composer’s soul. The Romantic influences are clear, as Higdon not only invokes the listener’s imagination and communicates her personal emotions, but also makes a spiritual connection with a transcendent mood and connection to church imagery. 
+                </p>
+                <div class ="scene-image" id="image-1">
+                  <img src="images/part1.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+        <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="wrap">  
+            <div id="scene-2"> 
+              <h2 class="chapter-title" id="title-2">Chapter 2: Exploration</h2>
+              <div class="animation" id="animation-2">
+                <i class="fa fa-flag"></i>
+              </div>
+              <div class="text" id="text-2">
+                <div class="music">
+                  <audio src="part2.mp3" controls> 
+                    <p>Source could not be loaded.</p>
+                  </audio>
+                </div>
+                <p>This next section depicts the first expansion of the journey, broadening horizons and giving off a feel of magnificence and joy. The orchestra is much fuller here, with the powerful outburst of percussion and brass instruments escalating scale and grandeur. Stepwise ascensions of violin grounded by bursts of low trumpet fanfare build tension as the force and intensity ramps up, until finally the background instruments wane and the woodwinds linger slightly before falling silent in a cathartic release. This sudden energy in the piece represents a new and exciting foray into the unknown by contrasting with the more reserved and level orchestration of the previous section.
+                </p>
+                <br>
+                <p> Here, there is some deviation from the approach that Chopin or Liszt took in composing their romantic pieces. Rather than maintaining personal emotional expression through an entirely solo performance, Higdon makes use of baroque-style orchestration and contrasting techniques to magnify the intensity of the emotions of splendor and thrill that are portrayed. 
+                </p>
+                <div class ="scene-image" id="image-2">
+                  <img src="images/part2.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+        <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="wrap">  
+            <div id="scene-3"> 
+              <h2 class="chapter-title" id="title-3">Chapter 3: Loss and Reprise</h2>
+              <div class="animation" id="animation-3">
+                <i class="fa fa-leaf"></i>
+              </div>
+              <div class="text" id="text-3">
+                <div class="music">
+                  <audio src="part3.mp3" controls> 
+                    <p>Source could not be loaded.</p>
+                  </audio>
+                </div>
+                <p> Now, we experience the return of the gentle, heavenly tunes of the first section. However, shortly into this new section the tranquility of the mood is undercut by the accompaniment of a somber horn. Strings and woodwinds begin to play a gradually escalating melody that lingers without solid resolution, which, combined with the uneasy timbre of the horn solo and the periodic chiming sounds, creates a sense of foreboding.</p>
+                <br>
+                <p> This sensation is augmented by the thin orchestration and slow, rhythmically ambiguous melodies, much like those in Schumann’s “Eusebius”, which also leverages these techniques to portray ambiguity and strengthen dramatic effect. The apprehensive mood instills a feeling of loss and uncertainty—perhaps an allusion to the death of Higdon’s brother—and contrasts with the excitement of the previous section to capture the ups and downs of a journey. 
+                </p>
+                <div class ="scene-image" id="image-3">
+                  <img src="images/part3.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="wrap">  
+            <div id="scene-4"> 
+              <h2 class="chapter-title" id="title-4">Chapter 4: Retaliation</h2>
+              <div class="animation" id="animation-4">
+                <i class="fa fa-bolt"></i>
+              </div>
+              <div class="text" id="text-4">
+                <div class="music">
+                  <audio src="part4.mp3" controls> 
+                    <p>Source could not be loaded.</p>
+                  </audio>
+                </div>
+                <p> This next emotionally charged section portrays a frenzied response to the loss experienced in the previous section, as the scale of the orchestra expands and the tempo ramps up before a flurry of percussion and brass instruments are introduced. The melodies surge up powerfully in intervals before the introduction of a fast-paced, dramatic fanfare of the brass, supported by the forceful, marching cadence of the percussion that invokes a sense of heated frustration and anger.</p>
+                <br>
+                 <p>Beethoven’s “Eroica” (first movement) utilizes a similar assortment of instruments to instill the same type of vigorous, martial theme, but the dissonant and tumultuous interplay within Higdon’s orchestration steers the ambiance away from Eroica’s triumphant mood, towards a feeling of aggravation. Anger is a natural reaction to mourning, and in this vein, this portion of the journey expresses an outburst of righteous indignation against the cruelties of life. </p>
+                <div class ="scene-image" id="image-4">
+                  <img src="images/part4.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>        
+        
+      <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="wrap">  
+            <div id="scene-5"> 
+              <h2 class="chapter-title" id="title-5">Chapter 5: Ascension</h2>
+              <div class="animation" id="animation-5">
+                <i class="fa fa-bell"></i>
+              </div>
+              <div class="text" id="text-5">
+                <div class="music">
+                  <audio src="part5.mp3" controls> 
+                    <p>Source could not be loaded.</p>
+                  </audio>
+                </div>
+                <p> Once again, after the climax fades, the piece slows down and returns to the soft, contemplative mood of the first section, bringing the journey full circle. The light, uplifting trills of the woodwinds are accompanied by the gradual thrumming of harps and chiming instruments, illustrating a heavenly atmosphere. The instruments are played even more delicately than they were at the beginning, and being brought to such a state of calm after the previous frenzy evokes a sense of nostalgia as the song comes to a soft resolution, like gently falling asleep and ascending into the afterlife after a tumultuous adventure.</p>
+                <br>
+                 <p>The periodic resurgence of themes from the first section, which are more muted and celestial, constructs a form reminiscent of the ritornello-style structure in pieces like Vivaldi’s Concerto for Violin in E, Op. 3 (first movement), where a segment of music introduced at the beginning of the piece is repeated at the end and in shorter bursts throughout the middle. However, rather than fragmenting the repeated section and subjecting it to key modulation, the recurring passage is relatively complete and instead experiences changes in timbre and mood. Moreover, by bringing components of the first section back at the end, Higdon is able to ground her composition and emulate the sense of closure and unity achieved by the recapitulation in sonata form. </p>
+                <div class ="scene-image" id="image-5">
+                  <img src="images/part5.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div> 
+      <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="marker" id="fin-marker">  
+            ~ FIN ~
+          </div>
+        </div>
+        
+      </div>    
+
+
+      <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+          <div class="wrap" id = "conclusion">  
+            <div id="scene-6"> 
+              <h2 class="chapter-title" id="title-6">My Thoughts</h2>
+              <div class="animation" id="animation-6">
+                <i class="fa fa-comments"></i>
+              </div>
+              <div class="text" id="text-6">
+                <p> Overall, I felt that my listening experience to “Blue Cathedral” was very poignant and eye-opening. At first listen, I enjoyed the surface-level harmony of sounds, which were conventionally pleasant to me, but upon reading the program notes and giving it multiple careful listens, I really began to experience the emotional effect. As reflected in the format of this website, I felt like I was being taken on an adventure as the melodies and orchestration developed and morphed. It was sorrowful at times, but the ending left the piece on an accepting, hopeful note, and gave fantastic closure to the cyclic journey. 
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>    
+
+    </div></main>
+  </body>
+</html>
+
+
+
